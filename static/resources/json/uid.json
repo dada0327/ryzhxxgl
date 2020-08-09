@@ -1,0 +1,16 @@
+
+{"data":
+[{"ssshengId":"系统管理员","sshiId":"","ssxianId":"","username": "admin","bumen":"系统管理员","role":"系统管理员","qx":"系统管理员"},
+  {"ssshengId":"人影中心","sshiId":"","ssxianId":"","username": "ryzx","bumen":"中国气象局人工影响天气中心人影中心","role":"国家","qx":"录入查看"},
+  {"ssshengId":"减灾司","sshiId":"","ssxianId":"","username": "zhangxp","bumen":"减灾司","role":"省","qx":"减灾司"},
+  {"ssshengId":"北京","sshiId":"","ssxianId":"","username": "bjryb","bumen":"北京市人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"天津","sshiId":"","ssxianId":"","username": "tjsryb","bumen":"天津市人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"河北","sshiId":"","ssxianId":"","username": "hbsryb","bumen":"河北省人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"山西","sshiId":"","ssxianId":"","username": "sxsryb","bumen":"山西省人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"内蒙古","sshiId":"","ssxianId":"","username": "nmgryb","bumen":"内蒙古人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"辽宁","sshiId":"","ssxianId":"","username": "lnryb","bumen":"辽宁省人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"吉林","sshiId":"","ssxianId":"","username": "jlryb","bumen":"吉林省人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"黑龙江","sshiId":"","ssxianId":"","username": "hljryb","bumen":"黑龙江省人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"江苏","sshiId":"","ssxianId":"","username": "jsryb","bumen":"江苏省人影办","role":"省","qx":"浏览用户"},
+  {"ssshengId":"浙江","sshiId":"","ssxianId":"","username": "zjryb","bumen":"浙江省人影办","role":"省","qx":"浏览用户"}
+]}

@@ -1,0 +1,11 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.login_tablef{border-spacing: 0px;border-collapse: collapse;width: 100%;border: 0px;}
+.login_table{height: 439px; width: 907px;border-collapse:collapse;border: 0;margin: auto;width: 50%;}
+.login_tablexx{border: 1px;margin-top:58px; border-collapse: collapse;border-spacing: 0px;margin-left: 398px;}
+
+.input_s { width:160px;color:666666; height:23px;border-top: 0px; border-left: 0px;border-right: 0px;border-bottom: 0px;}
+/* width="650" style="margin:65 0 0  205px;" border="0" cellspacing="0" cellpadding="0"*/
