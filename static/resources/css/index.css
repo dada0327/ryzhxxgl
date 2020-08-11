@@ -292,7 +292,7 @@ a:hover,a:active,a:focus{outline:none;text-decoration:none;color:#fff}
 .skin-blue .sidebar-menu > li.active > a .a0{color: #ffffff;background: #1e282c}
 .skin-blue .sidebar-menu > li > .treeview-menu1{margin: 0 1px}
 .content-wrapper .content-tabs .page-tabs a.active{background: #6c8ae2;color: #fff;border-right: solid 1px #9aa9ea;}
-.skin-blue .sidebar-menu > li > a{background-image:url('../img/abg.png');background-repeat:no-repeat;background-size:100% 100%;border-radius: 2px}
+.skin-blue .sidebar-menu > li > a{background-image:url('../images/img/abg.png');background-repeat:no-repeat;background-size:100% 100%;border-radius: 2px}
 
 .skin-blue .main-header .logo2{background-color: #a92626;color: #ffffff;border-bottom: 0 solid transparent;}
 .skin-blue .main-header .navbar2{background-color: #a92626;}
@@ -340,3 +340,71 @@ a:hover,a:active,a:focus{outline:none;text-decoration:none;color:#fff}
 .topimg{
     height:80px;width:100%;position: relative;background-image: url('../images/cq/admintitlebg.png');background-size: 100% 100%;background-repeat:no-repeat;
 }
+
+*{margin: 0;padding: 0}
+ul {
+    list-style: none
+}
+.menu-open-li{background-color: #345098 !important;}
+.z-nav {
+    position: absolute;
+    left: 230px;
+    right: 300px;
+    top: 0;
+    z-index: 999999;
+    height: 80px;
+    overflow: hidden
+}
+
+.nav-bg {
+    z-index: -1;
+    display: block;
+    position: absolute;
+    height: 78px;
+    background-image: url('../images/cq/zzbg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.z-nav ul {
+    margin: 0;
+    padding: 0
+}
+.z-nav ul li {
+    float: left;;
+    height: 78px;
+    margin:1px 20px 1px 0;
+    padding: 4px 14px 0 14px;
+    text-align: center;
+    cursor: pointer;
+}
+.z-nav ul{margin-left: 150px}
+.z-nav ul li:last-child{margin-right: 0}
+
+
+.z-nav-active {
+    color: #fff
+}
+.line{
+    width: 230px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: #fff;
+}
+.clear {
+    clear: both
+}
+.nav-btn{width: 36px;height: 36px;position: absolute;right:264px;top:19px;cursor: pointer;z-index: 999999}
+
+.mainContent {padding: 0;height: 100%;width: 100%;}
+
+/*home*/
+.center_cp{width: 100%;height:760px;margint-top:10px;}
+/**选项卡播放**/
+.tab{width:100%;}
+.tab dl dt{ border-bottom:#ccc 1px solid;height:30px;background:#f1f1f1; margin-bottom:-1px;}
+.tab dl dt a{float:left;display:block;cursor:pointer;width:90px;height:25px;line-height:30px;text-align:center;background:#f1f1f1;color:#000;font-size: 15px;}
+.tab dl dt a.tabActive{background-image:url('../images/cq/tab.png');width:97px;height:28px;color:#333;font-weight:bold;border-bottom:1px solid #fff;position:relative;border-right:1px solid #ccc;border-left:1px solid #ccc;}
+.tab dl dd{padding:0px; clear:both;background-color:white;}
