@@ -759,7 +759,7 @@ ul{list-style: none}
 .r_right{float: right}
 .clear{clear: both}
 th{background-color: #e7f0f6 !important;}
-.nav_active{;background-image: url(../img/ccc_03.png);background-repeat: no-repeat;background-position: top left;background-color: #f5f5f5}
+.nav_active{;background-image: url(../images/img/ccc_03.png);background-repeat: no-repeat;background-position: top left;background-color: #f5f5f5}
 .news_main{height: 98%;width: 100%}
 .layui-layer-title{background-color: #e7f0f6 !important;font-weight:bold;color:#475059 !important; border:none !important;height: 33px;line-height: 33px;}
 .news_main h6{font-weight: bold;padding-left: 10px;line-height: 31px;border-bottom: 1px #ccc solid}
@@ -799,7 +799,7 @@ tbody tr:hover{background-color: #f3f3f3}
 .news_check{padding: 16px 15px 16px 15px;border: 1px #ccc solid;margin-bottom: 4px;background-color: #fff;box-shadow: 2px 2px 5px #b1afaf;}
 .check_left input{height: 28px;width: 198px;border-radius: 4px;border: 1px #ccc solid}
 .check_left button{height: 28px;border: none;margin-left: 6px;width: 65px;border-radius: 4px;background-color: #337ab7;color: #fff;padding-left: 18px;
-    background-image: url(../img/100_03.png);background-repeat: no-repeat;background-position: 11px 8px}
+    background-image: url(../images/img/100_03.png);background-repeat: no-repeat;background-position: 11px 8px}
 .form_h1{line-height: 30px;text-align: center;font-size: 18px;font-weight: bold}
 .from_p{font-size: 12px;line-height: 24px}
 .top_btn{margin-left: 10px}
@@ -824,7 +824,7 @@ ul{list-style: none}
 .news_check{padding: 16px 15px 16px 15px;border: 1px #ccc solid;margin-bottom: 4px;background-color: #fff;box-shadow: 2px 2px 5px #b1afaf;}
 .check_left input{height: 28px;width: 198px;border-radius: 4px;border: 1px #ccc solid}
 .check_left button{height: 28px;border: none;margin-left: 6px;width: 65px;border-radius: 4px;background-color: #337ab7;color: #fff;padding-left: 18px;
-    background-image: url(../img/1_03.png);background-repeat: no-repeat;background-position: 11px 8px}
+    background-image: url(../images/img/1_03.png);background-repeat: no-repeat;background-position: 11px 8px}
 .e_chart{margin: 10px 0}
 .charts{width: 49.5%;border: 1px #ccc solid;border-radius: 4px;margin-right: 1%}
 .last_charts{margin-right: 0}
@@ -933,3 +933,31 @@ ul{list-style: none}
 }
 
 .table_style td{font-size: 14px;}
+.content-cpfb{background-color: #ecf0f5;font-family: 微软雅黑;color: #475059;min-width: 1000px;overflow: auto}
+#boysoft a:HOVER{color:#FF4500;text-decoration: none;}
+#boysoft td{border-bottom: 1px dashed #cccccc;line-height: 20px;font-size: 14px;}
+#boysoft a{color:#436EEE;}
+.qytable{width: 100%;height: 100%;}
+.qytable td{padding-left: 10px;line-height: 28px;border-bottom: 1px #ccc solid;}
+.qytd{border: 1px solid #ccc;background-color: #e6f2fb;}
+
+.lxtable{width: 100%;height: 100%;}
+.lxtable td{line-height: 28px;border-bottom: 1px #ccc solid;}
+.lxtd{border: 1px solid #ccc;background-color: #e6f2fb;}
+
+.ystable{width: 100%;height: 100%;}
+.ystable td{line-height: 28px;font-size: 13px;padding: 3px;}
+
+.wdtable{width: 100%;height: 100%;border: 1px #ccc solid;}
+.wdtable td{padding-left: 10px;line-height: 28px;}
+.wdtd{border: 1px solid #ccc;background-color: #e6f2fb;}
+
+.cctable{width: 100%;height: 100%;border-bottom: 1px #ccc solid;}
+.cctable td{line-height: 20px;font-size: 12px;padding: 5px;}
+.ccpha{
+    margin:0 auto;
+    border:1px solid darkslategray;
+    border-radius:8px;
+    text-align: center;
+}
+.wdh6{border: 1px solid #ccc; font-size: 13px;}
