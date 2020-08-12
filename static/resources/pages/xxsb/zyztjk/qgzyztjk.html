@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全国作业状态监控</title>
+    <link rel="stylesheet" href="../../../plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  href=".././../plugin/bstable/css/bootstrap-table.css"/>
+    <link rel="stylesheet"  href="../../../css/table.css"/>
+    <style type="text/css">
+        .charts{width: 99.5%;border: 1px #ccc solid;border-radius: 4px;margin-right: 1%}
+        .charts p{border-bottom: 1px #ccc solid;line-height: 28px;padding: 0 10px;font-size: 12px;background-color: #e7f0f6;font-weight: 800;color:#666}
+        .charts span{color:#00a7d0}
+        .l_left{float: left}
+        .r_right{float: right}
+        .annyTable{
+            width: 96%;
+            border-collapse: collapse;
+            border:1px solid #CCCCCC;
+            margin:0 2% 2% 2%;
+        }
+        .annyTable td{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color:#666
+        }
+        .annyTable tr:nth-child(1){
+            font-weight: normal !important;  background-color: #fff !important;
+        }
+        .e_chart{margin: 10px 0}
+        .first_td{font-weight: bold;  background-color: #eeeeee;width: 12%}
+    </style>
+</head>
+<body>
+<div style="width: 67%;height: 820px;float: left;background-color: #00a65a;">
+    <img  width="100%" height="819" style="" src="../../../images/zyfbt/achn_zyfbt_202006120900.png">
+</div>
+<div  style="width: 32%;height: 820px;float:left;background-color: #0D8BBD;">
+        <div style="width: 100%;height: 410px;">
+            <div class="e_chart">
+                <div class="charts l_left">
+                    <p class="charts_p">全国地面作业情况占比<span class="r_right">更多></span></p>
+                    <div id="container" style="height:200px;width: 100%;"></div>
+                    <div   style="width: 100%;margin-top: 30px;">
+                        <table class="annyTable" border="1">
+                            <tr>
+                                <td class="first_td">全国</td>
+                                <td>东北</td>
+                                <td>华北</td>
+                                <td>西北</td>
+                                <td>中部</td>
+                                <td>东南</td>
+                                <td>西南</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td">数量</td>
+                                <td>124</td>
+                                <td>86</td>
+                                <td>9</td>
+                                <td>39</td>
+                                <td>29</td>
+                                <td>65</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td">占比</td>
+                                <td>35.23%</td>
+                                <td>24.43%</td>
+                                <td>2.56%</td>
+                                <td>11.08%</td>
+                                <td>8.24%</td>
+                                <td>18.47%</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--表2-->
+        <div style="width: 100%;height: 410px;">
+            <div class="e_chart">
+                <div class="charts l_left">
+                    <p class="charts_p">全国飞机作业情况占比<span class="r_right">更多></span></p>
+                    <div id="container1" style="height:200px;width: 100%;"></div>
+                    <div   style="width: 100%;margin-top: 30px;">
+                        <table class="annyTable" border="1">
+                            <tr>
+                                <td class="first_td">全国</td>
+                                <td>东北</td>
+                                <td>华北</td>
+                                <td>西北</td>
+                                <td>中部</td>
+                                <td>东南</td>
+                                <td>西南</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td">数量</td>
+                                <td>19</td>
+                                <td>56</td>
+                                <td>29</td>
+                                <td>78</td>
+                                <td>34</td>
+                                <td>95</td>
+                            </tr>
+                            <tr>
+                                <td class="first_td">占比</td>
+                                <td>25.33%</td>
+                                <td>44.63%</td>
+                                <td>12.96%</td>
+                                <td>11.68%</td>
+                                <td>08.84%</td>
+                                <td>18.37%</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../../../js/jquery/jQuery-2.2.0.min.js"></script>
+<script src="../../../plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../../plugin/bstable/js/bootstrap-table.js"></script>
+<script src="../../../plugin/bstable/js/bootstrap-table-zh-CN.min.js"></script>
+<script src="../../../plugin/layer_v2.1/layer/layer.js"></script>
+<script src="../../../js/echarts/echarts-all.js"></script>
+<script src="../../../js/analysis.js"></script>
+</body>
+</html>

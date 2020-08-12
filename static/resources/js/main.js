@@ -363,8 +363,8 @@
                     myFrame.attr("src","main/cpfb.html");
                     break;
                 case 2:
-                    ywxxi();
-                    myFrame.attr("src","main/ywxx.html");
+                    sbxxi();
+                    myFrame.attr("src","main/sbxx.html");
                     break;
                 case 3:
                     road();
@@ -393,9 +393,11 @@
             }
 
             function maini(){
-                data = [{ "F_ModuleId": "1", "F_ParentId": "0", "F_EnCode": "SysManage", "F_FullName": "首页信息", "F_Icon": "fa fa-desktop", "F_UrlAddress": "main/home.html", "F_Target": "expand", "F_IsMenu": 0, "F_AllowExpand": 1, "F_IsPublic": 0, "F_AllowEdit": null, "F_AllowDelete": null, "F_SortCode": 1, "F_DeleteMark": 0, "F_EnabledMark": 1, "F_Description": null, "F_CreateDate": null, "F_CreateUserId": null, "F_CreateUserName": null, "F_ModifyDate": "2015-11-17 11:22:46", "F_ModifyUserId": "System", "F_ModifyUserName": "超级管理员" },
 
-                ];
+                $("#content-wrapper").css("margin-left","0px");
+                $("#mainSi").hide();
+                $("#content-tabs").hide();
+                //alert("z2x24xee");
             }
             function cpfbi(){
                 data = [{ "F_ModuleId": "1", "F_ParentId": "0", "F_EnCode": "SysManage", "F_FullName": "预报产品", "F_Icon": "fa fa-desktop", "F_UrlAddress": "/default", "rycpfb/jccp/fy2ycp": "expand", "F_IsMenu": 0, "F_AllowExpand": 1, "F_IsPublic": 0, "F_AllowEdit": null, "F_AllowDelete": null, "F_SortCode": 1, "F_DeleteMark": 0, "F_EnabledMark": 1, "F_Description": null, "F_CreateDate": null, "F_CreateUserId": null, "F_CreateUserName": null, "F_ModifyDate": "2015-11-17 11:22:46", "F_ModifyUserId": "System", "F_ModifyUserName": "超级管理员" },
