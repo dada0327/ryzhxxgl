@@ -1,6 +1,6 @@
-﻿var ifreamindex=0;
+﻿
 (function ($) {
-    $.learunindex = {
+  $.learunindex = {
 
         loadMenu: function (index) {
             var myFrame = $("#myFrame");
@@ -27,7 +27,7 @@
                     myFrame.attr("src","cxuid");
                     break;
             }
-            ifreamindex = index;
+
         }
     };
 
@@ -35,7 +35,7 @@
         $(".z-nav ul li").each(function(index){
             $(this).click(function(){
                 $(this).addClass('z-nav-active').siblings("li").removeClass("z-nav-active");
-                    alert("home:"+index);
+                alert("home:"+index);
 
                 $.learunindex.loadMenu(index);
                 changeColor(0)
@@ -241,6 +241,3 @@
 
 })(jQuery);
 
-function fun(){
-    alert('这是父页面中的函数弹出窗口哦！');
-}

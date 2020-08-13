@@ -1,4 +1,4 @@
-﻿
+﻿alert(parent.ifreamindex+"希望可以");
 (function ($) {
     $.learuntab = {
         requestFullScreen: function () {
@@ -198,7 +198,7 @@
                 //else {
                 $('.menuTabs .page-tabs-content').append(str);
                 $.learuntab.scrollToTab($('.menuTab.active'));
-            //}
+                //}
 
             }
             return false;
@@ -447,12 +447,12 @@
                     e.parent("li").removeClass("active")
                 } else if (e.is(".treeview-menu") && !e.is(":visible")) {
                     var f = d.parents("ul").first(),
-                    g = f.find("ul:visible").slideUp(500);
+                        g = f.find("ul:visible").slideUp(500);
                     g.removeClass("menu-open");
                     var h = d.parent("li");
                     e.slideDown(500, function () {
                         e.addClass("menu-open"),
-                        f.find("li.active").removeClass("active")
+                            f.find("li.active").removeClass("active")
                         h.addClass("active");
 
                         var _height1 = $(window).height() - $("#sidebar-menu >li.active").position().top - 41;
