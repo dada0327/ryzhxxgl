@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grapes_CAMS模式预报产品</title>
+    <link rel="stylesheet" href="../../plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  href=".././../plugin/bstable/css/bootstrap-table.css"/>
+    <link rel="stylesheet"  href="../../css/table.css"/>
+</head>
+<body class="content-cpfb">
+<div class="news_main">
+    <div class="l_left news_left">
+
+        <ul class="nav nav-tabs" id="myTab" style="font-size: 12px;">
+            <li class="active"><a href="#home">云宏观场</a></li>
+            <li><a href="#profile">云微观场</a></li>
+            <li><a href="#messages">垂直结构</a></li>
+            <li><a href="#settings">降水场</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <h6>预报时间：<input  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:00'})" class="Wdate" style="line-height: 25px;width: 120px;">  08时  20时 </h6>
+                <div style="width: 100%;height: 100%;">
+
+                    <h6 style="font-size: 13px;">要素</h6>
+                    <table class="ystable">
+                        <tr>
+                            <td>云带</td>
+                            <td>垂直累积液态水</td>
+
+                        </tr>
+                        <tr>
+                            <td>云顶温度</td>
+                            <td>垂直累积过冷水</td>
+
+                        </tr>
+                        <tr>
+                            <td>云顶高度</td>
+                            <td>云底高度</td>
+                        </tr>
+                    </table>
+                    <h6 style="font-size: 13px;border-top: 1px solid #ccc;">层次  <label style="margin-left: 10px;"><a>播放</a></label><label style="margin-left: 10px;"><a>向上</a></label><label style="margin-left: 10px;"><a>向下</a></label></h6>
+
+                    <table class="cctable">
+                        <tr>
+                            <td> <div class="ccpha">850hPa</div></td>
+                            <td> <div class="ccpha">800hPa</div></td>
+                            <td> <div class="ccpha">750hPa</div></td>
+                            <td> <div class="ccpha">700hPa</div></td>
+                            <td> <div class="ccpha">650hPa</div></td>
+                        </tr>
+                        <tr>
+                            <td> <div class="ccpha">600hPa</div></td>
+                            <td> <div class="ccpha">550hPa</div></td>
+                            <td> <div class="ccpha">500hPa</div></td>
+                            <td> <div class="ccpha">450hPa</div></td>
+                            <td> <div class="ccpha">400hPa</div></td>
+                        </tr>
+                    </table>
+                    <h6 style="font-size: 13px;">时效
+                        <i class="fa fa-step-backward fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-play-circle-o fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-step-forward fa-lg" style="padding-left: 15px;"></i>
+                    </h6>
+                    <table class="qytable">
+                        <tr><td class="qytd">01</td><td class="qytd">02</td><td class="qytd">03</td><td class="qytd">04</td><td class="qytd">05</td><td class="qytd">06</td><td class="qytd">07</td><td class="qytd">08</td></tr>
+                        <tr><td class="qytd">09</td><td class="qytd">10</td><td class="qytd">11</td><td class="qytd">12</td><td class="qytd">13</td><td class="qytd">14</td><td class="qytd">15</td><td class="qytd">16</td></tr>
+                        <tr><td class="qytd">17</td><td class="qytd">18</td><td class="qytd">19</td><td class="qytd">20</td><td class="qytd">21</td><td class="qytd">22</td><td class="qytd">23</td><td class="qytd">24</td></tr>
+                        <tr><td class="qytd">25</td><td class="qytd">26</td><td class="qytd">27</td><td class="qytd">28</td><td class="qytd">29</td><td class="qytd">30</td><td class="qytd">31</td><td class="qytd">32</td></tr>
+                        <tr><td class="qytd">33</td><td class="qytd">34</td><td class="qytd">35</td><td class="qytd">36</td><td class="qytd">37</td><td class="qytd">38</td><td class="qytd">39</td><td class="qytd">40</td></tr>
+                        <tr><td class="qytd">41</td><td class="qytd">42</td><td class="qytd">43</td><td class="qytd">44</td><td class="qytd">45</td><td class="qytd">46</td><td class="qytd">47</td><td class="qytd">48</td></tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="tab-pane" id="profile">
+                <h6>预报时间：<input  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:00'})" class="Wdate" style="line-height: 25px;width: 120px;">  08时  20时 </h6>
+                <div style="width: 100%;height: 100%;">
+
+
+                    <h6 style="font-size: 13px;">要素</h6>
+                    <table class="ystable">
+                        <tr>
+                            <td>总水成物场+风场+温度</td>
+                            <td>云水比含水量</td>
+                            <td>雨水比含水量</td>
+                        </tr>
+                        <tr>
+                            <td>冰晶比含水量</td>
+                            <td>雪比含水量</td>
+                            <td>霰比含水量</td>
+                        </tr>
+                        <tr>
+                            <td>冰晶数浓度</td>
+                            <td>雨滴数浓度</td>
+                            <td>雪数浓度</td>
+                        </tr>
+                        <tr>
+                            <td>霰数浓度</td>
+
+                        </tr>
+                    </table>
+                    <h6 style="font-size: 13px;">层次  <label style="margin-left: 10px;"><a>播放</a></label><label style="margin-left: 10px;"><a>向上</a></label><label style="margin-left: 10px;"><a>向下</a></label></h6>
+
+                    <table class="cctable">
+                        <tr>
+                            <td> <div class="ccpha">850hPa</div></td>
+                            <td> <div class="ccpha">800hPa</div></td>
+                            <td> <div class="ccpha">750hPa</div></td>
+                            <td> <div class="ccpha">700hPa</div></td>
+                            <td> <div class="ccpha">650hPa</div></td>
+                        </tr>
+                        <tr>
+                            <td> <div class="ccpha">600hPa</div></td>
+                            <td> <div class="ccpha">550hPa</div></td>
+                            <td> <div class="ccpha">500hPa</div></td>
+                            <td> <div class="ccpha">450hPa</div></td>
+                            <td> <div class="ccpha">400hPa</div></td>
+                        </tr>
+                    </table>
+                    <h6 style="font-size: 13px;">时效
+                        <i class="fa fa-step-backward fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-play-circle-o fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-step-forward fa-lg" style="padding-left: 15px;"></i>
+                    </h6>
+                    <table class="qytable">
+                        <tr><td class="qytd">01</td><td class="qytd">02</td><td class="qytd">03</td><td class="qytd">04</td><td class="qytd">05</td><td class="qytd">06</td><td class="qytd">07</td><td class="qytd">08</td></tr>
+                        <tr><td class="qytd">09</td><td class="qytd">10</td><td class="qytd">11</td><td class="qytd">12</td><td class="qytd">13</td><td class="qytd">14</td><td class="qytd">15</td><td class="qytd">16</td></tr>
+                        <tr><td class="qytd">17</td><td class="qytd">18</td><td class="qytd">19</td><td class="qytd">20</td><td class="qytd">21</td><td class="qytd">22</td><td class="qytd">23</td><td class="qytd">24</td></tr>
+                        <tr><td class="qytd">25</td><td class="qytd">26</td><td class="qytd">27</td><td class="qytd">28</td><td class="qytd">29</td><td class="qytd">30</td><td class="qytd">31</td><td class="qytd">32</td></tr>
+                        <tr><td class="qytd">33</td><td class="qytd">34</td><td class="qytd">35</td><td class="qytd">36</td><td class="qytd">37</td><td class="qytd">38</td><td class="qytd">39</td><td class="qytd">40</td></tr>
+                        <tr><td class="qytd">41</td><td class="qytd">42</td><td class="qytd">43</td><td class="qytd">44</td><td class="qytd">45</td><td class="qytd">46</td><td class="qytd">47</td><td class="qytd">48</td></tr>
+                    </table>
+                </div>
+
+            </div>
+            <div class="tab-pane" id="messages">
+
+                <h6>预报时间：<input  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:00'})" class="Wdate" style="line-height: 25px;width: 120px;">  08时  20时 </h6>
+                <div style="width: 100%;height: 100%;">
+
+                    <h6 style="font-size: 13px;">要素</h6>
+                    <table class="ystable">
+                        <tr>
+                            <td>Qc,Ni,T垂直剖面</td>
+                        </tr>
+                        <tr>
+                            <td>Qs+Qg,Qr,H垂直剖面</td>
+
+                        </tr>
+                    </table>
+                    <h6 class="wdh6">纬度值 <label style="margin-left: 10px;"><a>播放</a></label><label style="margin-left: 10px;"><a>向上</a></label><label style="margin-left: 10px;"><a>向下</a></label></h6>
+                    <table class="wdtable">
+                        <tr><td class="wdtd">36</td><td class="wdtd">38</td><td class="wdtd">40</td><td class="wdtd">42</td><td class="wdtd">44</td><td class="wdtd">46</td></tr>
+                    </table>
+                    <h6 style="font-size: 13px;">时效
+                        <i class="fa fa-step-backward fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-play-circle-o fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-step-forward fa-lg" style="padding-left: 15px;"></i>
+                    </h6>
+                    <table class="qytable">
+                        <tr><td class="qytd">01</td><td class="qytd">02</td><td class="qytd">03</td><td class="qytd">04</td><td class="qytd">05</td><td class="qytd">06</td><td class="qytd">07</td><td class="qytd">08</td></tr>
+                        <tr><td class="qytd">09</td><td class="qytd">10</td><td class="qytd">11</td><td class="qytd">12</td><td class="qytd">13</td><td class="qytd">14</td><td class="qytd">15</td><td class="qytd">16</td></tr>
+                        <tr><td class="qytd">17</td><td class="qytd">18</td><td class="qytd">19</td><td class="qytd">20</td><td class="qytd">21</td><td class="qytd">22</td><td class="qytd">23</td><td class="qytd">24</td></tr>
+                        <tr><td class="qytd">25</td><td class="qytd">26</td><td class="qytd">27</td><td class="qytd">28</td><td class="qytd">29</td><td class="qytd">30</td><td class="qytd">31</td><td class="qytd">32</td></tr>
+                        <tr><td class="qytd">33</td><td class="qytd">34</td><td class="qytd">35</td><td class="qytd">36</td><td class="qytd">37</td><td class="qytd">38</td><td class="qytd">39</td><td class="qytd">40</td></tr>
+                        <tr><td class="qytd">41</td><td class="qytd">42</td><td class="qytd">43</td><td class="qytd">44</td><td class="qytd">45</td><td class="qytd">46</td><td class="qytd">47</td><td class="qytd">48</td></tr>
+                    </table>
+                </div>
+            </div>
+            <div class="tab-pane" id="settings">
+
+                <h6>预报时间：<input  onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:00'})" class="Wdate" style="line-height: 25px;width: 120px;">  08时  20时 </h6>
+                <div style="width: 100%;height: 100%;">
+
+                    <h6 style="font-size: 13px;">要素</h6>
+                    <table class="ystable">
+                        <tr>
+                            <td>3小时降水</td>
+                        </tr>
+                        <tr>
+                            <td>6小时降水</td>
+                        </tr>
+                        <tr>
+                            <td>24小时降水</td>
+                        </tr>
+                    </table>
+
+                    <h6 style="font-size: 13px;border-top: 1px solid #ccc;">时效
+                        <i class="fa fa-step-backward fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-play-circle-o fa-lg" style="padding-left: 15px;"></i>
+                        <i class="fa fa-step-forward fa-lg" style="padding-left: 15px;"></i>
+                    </h6>
+                    <table class="qytable">
+                        <tr><td class="qytd">01</td><td class="qytd">02</td><td class="qytd">03</td><td class="qytd">04</td><td class="qytd">05</td><td class="qytd">06</td><td class="qytd">07</td><td class="qytd">08</td></tr>
+                        <tr><td class="qytd">09</td><td class="qytd">10</td><td class="qytd">11</td><td class="qytd">12</td><td class="qytd">13</td><td class="qytd">14</td><td class="qytd">15</td><td class="qytd">16</td></tr>
+                        <tr><td class="qytd">17</td><td class="qytd">18</td><td class="qytd">19</td><td class="qytd">20</td><td class="qytd">21</td><td class="qytd">22</td><td class="qytd">23</td><td class="qytd">24</td></tr>
+                        <tr><td class="qytd">25</td><td class="qytd">26</td><td class="qytd">27</td><td class="qytd">28</td><td class="qytd">29</td><td class="qytd">30</td><td class="qytd">31</td><td class="qytd">32</td></tr>
+                        <tr><td class="qytd">33</td><td class="qytd">34</td><td class="qytd">35</td><td class="qytd">36</td><td class="qytd">37</td><td class="qytd">38</td><td class="qytd">39</td><td class="qytd">40</td></tr>
+                        <tr><td class="qytd">41</td><td class="qytd">42</td><td class="qytd">43</td><td class="qytd">44</td><td class="qytd">45</td><td class="qytd">46</td><td class="qytd">47</td><td class="qytd">48</td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="l_left news_right">
+        <div style="width: 75%;height: 810px;float:left;">
+            <img style="width:100%;height:810px;" src="../../images/rycpfb/Guip_wmc_grapes_cpas_cband_achn_nnn_0300_202008060800.png"/>
+        </div>
+        <!--相关产品-->
+        <div style="width: 23%;margin-left:20px;height: 810px;float: left;">
+            <div id="boysoft"  style="border:1px solid #cccccc;text-align:left; HEIGHT: 340px;WIDTH:95%;margin-left:10px;">
+                <table  style="background-color: #FCFCFC;text-align:left;"  border=0 cellpadding=0 cellspacing=0 height=300 width=100% >
+                    <tr>
+                        <td>
+                            <table  border="0" style="width:100%;height:33px;background-image:url(../../images/bk/ksll.png)" cellpadding=0 cellspacing=0>
+                                <tr>
+                                    <td style="text-align:left;color:white;font-size:14px;padding-left:8px;" ><b>相关产品</b></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <table  cellpadding=0 cellspacing=0 height=130 width="99%" style="">
+                                <tr>
+                                    <td  height="30px;" style="color:#444444;padding-left:3px;text-align:left;font-size: 14px;">对应时次卫星云特征参量产品</td>
+                                </tr>
+                                <tr>
+                                    <td height="30px;" style="padding-left:15px;text-align:left;"><a href="#" >光学厚度</a></td>
+                                </tr>
+                                <tr>
+                                    <td  height="30px;" style="padding-left:15px;text-align:left;"><a href="#" >云顶温度</a></td>
+                                </tr>
+                                <tr>
+                                    <td  height="30px;" style="padding-left:15px;text-align:left;"><a href="#" >云顶高度</a></td>
+                                </tr>
+                                <tr>
+                                    <td  height="30px;" style="padding-left:15px;text-align:left;"><a href="#" >有效粒子半径</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=65 width="100%">
+                            <table  border=0 cellpadding=0 cellspacing=0 height=130 width="99%" style="">
+                                <tr>
+                                    <td height="30px;"  style="color:#444444;padding-left:3px;text-align:left;font-size: 14px;">对应时次GRAPES_CAMS模式产品</td>
+                                </tr>
+                                <tr>
+                                    <td height="30px;"  style="padding-left:15px;text-align:left;"><a href="#"  onclick="showImg('cband3')" >云带</a></td>
+                                </tr>
+                                <tr>
+                                    <td  height="30px;" style="padding-left:15px;text-align:left;"><a href="#" onclick="showImg('ctt3')">云顶温度</a></td>
+                                </tr>
+                                <tr>
+                                    <td height="30px;"  style="padding-left:15px;text-align:left;"><a href="#" onclick="showImg('cth3')">云顶高度</a></td>
+                                </tr>
+                                <tr>
+                                    <td height="30px;"  style="padding-left:15px;text-align:left;"><a href="#" onclick="showImg('rain33')">3小时降水</a></td>
+                                </tr>
+                            </table>
+                </table>
+            </div><!--相关产品end-->
+
+        </div>
+
+
+
+    </div>
+    <div class="clear"></div>
+
+</div>
+<script src="../../js/jquery/jQuery-2.2.0.min.js"></script>
+<script src="../../js/My97DatePicker/WdatePicker.js"></script>
+<script src="../../plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../plugin/bstable/js/bootstrap-table.js"></script>
+<script src="../../plugin/bstable/js/bootstrap-table-zh-CN.min.js"></script>
+<script src="../../plugin/layer_v2.1/layer/layer.js"></script>
+<script>
+    $(function () {
+        $('#myTab a:first').tab('show');
+    })
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+    })
+</script>
+</body>
+</html>

@@ -5,7 +5,7 @@ var currentID;
 function table(){
     $('#table').bootstrapTable({
         method: "get",
-        url: "/zyxxcjgl/resources/json/zdff.json",
+        url: "/ryzhxxgl/static/resources/json/zdff.json",
         striped: true,
         singleSelect: false,
         dataType: "json",

@@ -6,26 +6,10 @@
             var myFrame = $("#myFrame");
             switch (index) {
                 case 0:
-                    myFrame.attr("src","main/home.html");
+                    myFrame.attr("src","home.html");
                     break;
-                case 1:
-                    myFrame.attr("src","main/cpfbss.html");
-                    break;
-                case 2:
-                    myFrame.attr("src","main/xxsb.html");
-                    break;
-                case 3:
-                    myFrame.attr("src","info");
-                    break;
-                case 4:
-                    myFrame.attr("src","cxzyzdxx");
-                    break;
-                case 5:
-                    myFrame.attr("src","cxtzxx");
-                    break;
-                case 6:
-                    myFrame.attr("src","cxuid");
-                    break;
+                default:
+                    myFrame.attr("src","main.html");
             }
             ifreamindex = index;
         }
@@ -35,8 +19,7 @@
         $(".z-nav ul li").each(function(index){
             $(this).click(function(){
                 $(this).addClass('z-nav-active').siblings("li").removeClass("z-nav-active");
-                    alert("home:"+index);
-
+                    //alert("home:"+index);
                 $.learunindex.loadMenu(index);
                 changeColor(0)
             })

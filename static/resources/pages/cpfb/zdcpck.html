@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>指导产品查看</title>
+    <link rel="stylesheet" href="../../plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="../../plugin/bstable/css/bootstrap-table.css"/>
+    <link rel="stylesheet"  href="../../css/table.css"/>
+    <style type="text/css">
+        .notice_main{height: 98%;width: 42%;border: 1px #ccc solid;background-color: #fff;overflow: auto;float: left;}
+    </style>
+</head>
+<body style="background-color: #ecf0f5;font-family: 微软雅黑;color: #475059;min-width: 1000px;overflow: auto">
+<div style="height: 780px;width: 58%;background-color: #fff;float:left;">
+    <iframe id="mycpFrame" class="LRADMS_iframe" width="100%" height="100%" src="../../images/作业需求分析.pdf" frameborder="0"></iframe>
+</div>
+<div class="notice_main">
+    <h6>人影作业过程预报</h6>
+    <div class="notice_check">
+        <div class="btn-group l_left" style="margin-right: 4px">
+            <h6>
+                开始时间：<input onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})" class="Wdate" style="line-height: 25px;width: 22%;">
+                结束时间：<input  onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})" class="Wdate" style="line-height: 25px;width: 22%;">
+            </h6>
+        </div>
+
+        <button class="check_btn">查询</button>
+    </div>
+    <table id="table" class="table_style" style="margin: 0 auto;" > </table>
+</div>
+<script src="../../js/My97DatePicker/WdatePicker.js"></script>
+<script src="../../js/jquery/jQuery-2.2.0.min.js"></script>
+<script src="../../plugin/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../plugin/bstable/js/bootstrap-table.js"></script>
+<script src="../../plugin/bstable/js/bootstrap-table-zh-CN.min.js"></script>
+<script src="../../plugin/layer_v2.1/layer/layer.js"></script>
+<script src="../../plugin/bstable/zdcpsc.js"></script>
+<script type="text/javascript">
+    $(function () {
+        table();
+
+    })
+</script>
+
+</body>
+</html>
