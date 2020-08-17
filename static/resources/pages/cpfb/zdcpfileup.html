@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <link rel="stylesheet" href="../../plugin/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet"  href="../../css/tail.css"/>
+</head>
+<body>
+<form class="form-inline">
+    <div class="top table2_top tail-main">
+        <div>
+            <div class="top_out">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>指导产品类型<span>*</span></td>
+                        <td>
+                            <select class="find_input">
+                                <option>请选择</option>
+                                <option>人影作业过程预报</option>
+                                <option>人影作业条件预报</option>
+                                <option>人影作业条件监测预警报</option>
+                                <option>人影作业方案设计报</option>
+                                <option>人影作业信息快报</option>
+                                <option>人影作业过程效果评估报</option>
+                            </select>
+                        </td>
+                        <td style="width: 160px;">服务任务名称<span>*</span></td>
+                        <td><input type="text" class="form-control"  placeholder="服务任务名称"></td>
+                    </tr>
+                    <tr>
+                        <td style="width: 170px;">服务任务单编号<span>*</span></td>
+                        <td><input type="text" class="form-control"  placeholder="服务任务单编号"></td>
+                        <td>服务类型<span>*</span></td>
+                        <td>
+                            <select class="find_input">
+                                <option>请选择</option>
+                                <option>抗旱</option>
+                                <option>灭火</option>
+                                <option>环保</option>
+                                <option>重大活动</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>制作日期时间<span>*</span></td>
+                        <td>
+                            <input type="text" class="Wdate" onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})"  placeholder="   制作日期时间">
+                        </td>
+                        <td>制作人<span>*</span></td>
+                        <td ><input type="text" class="form-control"  placeholder="制作人"></td>
+                    </tr>
+                    <tr>
+                        <td>发布日期时间<span>*</span></td>
+                        <td><input type="text" class="Wdate" onclick="WdatePicker({dateFmt:'yyyy-MM-dd'})"   placeholder="   发布日期时间"></td>
+                        <td>发布人<span>*</span></td>
+                        <td ><input type="text" class="form-control"  placeholder="发布人"></td>
+                    </tr>
+                    <tr>
+                        <td>产品文件：</td>
+                        <td><input type="file"   minlength ="2"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+        <div class="notice_bot">
+            <div class="l_left"><input type="checkbox" checked="checked"/>保存并关闭窗口</div>
+            <div class="r_right but_p"><button class="but_save" type="submit" onclick="save()">保存</button><button class="but_close" onclick="Cancel()">关闭</button></div>
+        </div>
+    </div>
+</form>
+<script src="../../js/My97DatePicker/WdatePicker.js"></script>
+<script>
+    function Cancel() {
+        var index = parent.layer.getFrameIndex(window.name);
+        parent.layer.close(index);
+    }
+
+</script>
+</body>
+</html>

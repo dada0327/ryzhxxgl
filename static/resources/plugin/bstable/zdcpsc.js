@@ -1,6 +1,14 @@
 /**
  * Created by Administrator on 2020/05/27
  */
+(function ($) {
+    $.getUrlParam = function (name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r != null) return unescape(r[2]); return null;
+    }
+})(jQuery);
+
 var currentID;
 function table(){
     $('#table').bootstrapTable({
@@ -46,7 +54,23 @@ function table(){
             }
         ]
     });
-
+    var zt = $.getUrlParam("element");
+    var titleElement;
+    if (zt == "eowf"){
+        titleElement  = "人影作业过程预报";
+    }else if(zt == "tjyb"){
+        titleElement  = "人影作业条件预报";
+    }else if(zt == "ecwr"){
+        titleElement  = "人影作业条件监测预警报";
+    }else if(zt == "fasj"){
+        titleElement  = "人影作业方案设计报";
+    }else if(zt == "xxkb"){
+        titleElement  = "人影作业信息快报";
+    }else if(zt == "xgpg"){
+        titleElement  = "人影作业过程效果评估报";
+    }
+$("#zdcptitle").html(titleElement);
+ //   alert();
 }
 // 查询
 function queryParams1(params) {
@@ -74,10 +98,10 @@ function openlayer(){
         title: '指导产品上传',
         shade: 0.5,
         skin: 'layui-layer-rim',
-        area: ['745px', '400px'],
+        area: ['755px', '400px'],
         shadeClose: true,
         closeBtn: 1,
-        content: 'zdcpadd'
+        content: 'zdcpfileup.html'
     });
 }
 //获取编号
